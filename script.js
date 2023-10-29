@@ -7,10 +7,7 @@ var upperCasedCharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
 // Function to prompt user for password options
 function getPasswordOptions() {
-  var passwordLength = parseInt(prompt('Enter the password Lowercase (between 8 and 128):'));
-  var passwordLength = parseInt(prompt('Enter the password Uppercase (between 8 and 128):'));
-  var passwordLength = parseInt(prompt('Enter the password Numeric (between 8 and 128):'));
-  var passwordLength = parseInt(prompt('Enter the password Sepcial (between 8 and 128):'));
+  var passwordLength = parseInt(prompt('Enter the password length (between 8 and 128):'));
 
   if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
     alert('Please enter a valid password length between 8 and 128.');
