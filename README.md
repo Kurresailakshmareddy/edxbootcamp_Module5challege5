@@ -30,9 +30,9 @@ N/A
 
 ## Output of the website
 
-```md
+
 ![alt text](images/output.png)
-```
+
 
 
 ## Link to deployed application
